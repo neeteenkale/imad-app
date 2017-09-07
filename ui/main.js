@@ -9,7 +9,7 @@ element.innerHTML = 'New Value from console'
 // Move the image
 
 var ing = document.getElementById('madi');
-ing.onClick = function() {
+ing.onclick = function() {
     ing.style.marginLeft = '100px';
 };
 
