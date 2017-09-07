@@ -10,6 +10,8 @@ element.innerHTML = 'New Value from console'
 
 var ing = document.getElementById('madi');
 ing.onClick = function() {
-    ing.style.margineLeft = '100px';
+    ing.style.marginLeft = '100px';
 };
+
+
 
