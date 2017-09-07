@@ -15,10 +15,10 @@ function moveRight () {
     ing.style.marginLeft = marginLeft + 'px';
 }
 
-var ing = document.getElementById('madi');
 ing.onclick = function() {
-    ing.style.marginLeft = '100px';
+    var interval = setInterval(moveRight, 100);
 };
+
 
 
 
