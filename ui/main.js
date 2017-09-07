@@ -8,6 +8,7 @@ element.innerHTML = 'New Value from console'
 
 // Move the image
 
+var ing = document.getElementById('madi')
 var marginLeft = 0;
 
 function moveRight () {
