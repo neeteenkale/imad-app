@@ -5,3 +5,11 @@ console.log('Loaded!');
 var element = document.getElementById('main-text');
 
 element.innerHTML = 'New Value from console'
+
+// Move the image
+
+var ing = document.getElementById('madi')
+ing.onClick = function() {
+    ing.style.margineLeft = '100px';
+};
+
