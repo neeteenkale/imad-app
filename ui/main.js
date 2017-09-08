@@ -1,25 +1,20 @@
-console.log('Loaded!');
+// counter code
 
-// change the text of the 'main-text' div
+var button = document.getElementById('counter');
+var counter = 0;
 
-var element = document.getElementById('main-text');
-
-element.innerHTML = 'New Value from console'
-
-// Move the image
-
-var ing = document.getElementById('madi')
-var marginLeft = 0;
-
-function moveRight () {
-    marginLeft = marginLeft + 10;
-    ing.style.marginLeft = marginLeft + 'px';
+button.onclick = function() {
+    
+    // make a request to counter endpoint
+    
+    
+    // capture the response and store it in a variable
+    
+    
+    //render the varialble in a correct span
+    
+    counter = counter + 1;
+    var span = document.getElementById('count');
+    span.innerHTML = counter.toString();
+    
 }
-
-ing.onclick = function() {
-    var interval = setInterval(moveRight, 100);
-};
-
-
-
-
