@@ -51,8 +51,8 @@ submit.onclick = function() {
     ul.innerHTML = list;
         }
     }
-  }
-//};
+  };
+
     //Make the request with query parameter, this value for name will come from input box ie nameInput.value
     request.open('GET', 'http://neeteenkale.imad.hasura-app.io/submit-name?name=' + name, true);
     request.send(null);
